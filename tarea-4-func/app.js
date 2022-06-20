@@ -12,13 +12,3 @@ let busqueda = prompt("Busque el producto que desea");
 
 const result = productos.filter(elemento => elemento.nombre.includes(busqueda));
 console.log(result);
-
-
-
-
-
-// const nombres = productos.map(elemento => elemento.nombre);
-// console.log(nombres);
-// let busqueda = prompt("Ingrese el producto que desea")
-// const result = productos.filter(elemento => elemento.nombre.includes(busqueda));
-// console.log(result);
